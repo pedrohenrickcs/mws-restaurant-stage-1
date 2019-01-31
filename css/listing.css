@@ -1,6 +1,9 @@
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
     background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: outside none none;
     margin: 0;
     padding: 30px 15px 60px;
@@ -23,7 +26,6 @@
     display: block;
     margin: 0;
     max-width: 100%;
-    min-height: 248px;
     min-width: 100%;
 }
 
