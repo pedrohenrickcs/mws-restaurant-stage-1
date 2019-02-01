@@ -43,8 +43,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 	display: block;
 }
 #maincontent {
+	min-height: 100%;
   background-color: #f3f3f3;
-  min-height: 100%;
 }
 #footer {
   background-color: #444;
@@ -54,4 +54,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px 0;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 968px) {
+	#maincontent {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }

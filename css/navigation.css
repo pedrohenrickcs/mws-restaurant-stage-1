@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* ====================== Navigation ====================== */
 nav {
     background-color: #252831;
@@ -23,8 +24,8 @@ nav h1 a {
     font-size: 17px;
     list-style: none;
     margin: 0;
-    padding: 10px 40px 16px;
-    width: 100%;
+    padding: 10px 10px 16px;
+    width: 95%;
 }
 
 /* Display list items side by side */
