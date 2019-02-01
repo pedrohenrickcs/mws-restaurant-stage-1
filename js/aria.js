@@ -13,7 +13,7 @@ if (navigation) {
 }
 
 // Attribute of map
-if (map) {
+if (mapRestaurant) {
     mapRestaurant.setAttribute('role', 'map');
     mapRestaurant.setAttribute('aria-label', 'map');
 }
