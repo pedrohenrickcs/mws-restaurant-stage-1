@@ -17,18 +17,18 @@ if (filter) {
 
 // Attribute of neighborhoods
 if (neighborhoodsFilter) {
-    neighborhoodsFilter.setAttribute('role', 'application');
+    neighborhoodsFilter.setAttribute('role', 'listbox');
     neighborhoodsFilter.setAttribute('aria-label', 'choose neighborhoods');
 }
 
 // Attribute of cuisines
 if (cuisinesSelect) {
-    cuisinesSelect.setAttribute('role', 'application');
+    cuisinesSelect.setAttribute('role', 'listbox');
     cuisinesSelect.setAttribute('aria-label', 'choose cuisines');
 }
 
 // Attribute of restaurant list
 if (restaurantsList) {
-    restaurantsList.setAttribute('role', 'application');
+    restaurantsList.setAttribute('role', 'listbox');
     restaurantsList.setAttribute('aria-label', 'review list');
 }
